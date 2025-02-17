@@ -7,8 +7,8 @@ package com.idat.laboratorio06.Encapsulamiento;
 /**
  *
  * @author IDAT
- */
-public class PruevaPersona {
+ */                     
+public class PruevaPersona {    
     public static void main(String[] args){
         persona persona = new persona ("Blanca");
        //persona.name ="nombre modificado";
@@ -16,4 +16,4 @@ public class PruevaPersona {
        persona.setName("nombre modificado");
        System.out.println(persona);
     }
-}
+} 
